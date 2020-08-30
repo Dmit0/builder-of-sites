@@ -6,7 +6,7 @@ export const model=[
             background:'linear-gradient(to right, #ff0099, #493240)',
             color:'#fff',
             padding: '1.5rem',
-            [text-align]: 'center'
+            'text-align': 'center'
         }),
         tag:'h2'
     }),
