@@ -24,7 +24,7 @@ export class Sidebar{
 
         const Constructor=type==='text'?textBlock:TitleBlock
         const newBlock=new Constructor(value,{styles})
-        this.update()
+        this.update(newBlock)
 
         event.target.value.value=''
         event.target.styles.value=''
